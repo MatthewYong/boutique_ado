@@ -2,6 +2,10 @@ from django.db import models
 
 
 class Category(models.Model):
+
+    class Meta:
+        verbose_name_plural = 'Categories'
+        
     name = models.CharField(max_length=254)
     # null & blank = True to make the friendly optional
     friendly_name = models.CharField(max_length=252, null=True, blank=True)
