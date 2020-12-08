@@ -26,7 +26,7 @@ DEBUG = 'DEVELOPMENT' in os.environ
 ALLOWED_HOSTS = ['matthew-boutique-ado.herokuapp.com', 'localhost']
 
 
-# Application definition
+# Application definition test
 
 INSTALLED_APPS = [
     'django.contrib.admin',
